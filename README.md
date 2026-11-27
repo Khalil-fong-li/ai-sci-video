@@ -106,6 +106,13 @@ python install.py --only codex
 
 Windows 双击 `install.bat`，macOS/Linux 用 `bash install.sh`。
 
+也可以直接从 GitHub 拷进技能目录：
+
+```bash
+git clone https://github.com/Khalil-fong-li/ai-sci-video.git \
+  ~/.workbuddy/skills/ai-sci-video          # Codex 改成 ~/.codex/skills/
+```
+
 ## 设计取舍
 
 - **先声音后画面**：配音时长是唯一时钟，字幕、画面、进度条全部由它推导，所以永远不会"声画不同步"。

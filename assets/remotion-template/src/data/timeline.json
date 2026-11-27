@@ -1,0 +1,22 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "total": 150,
+  "ratio": "9:16",
+  "style": "editorial",
+  "themeOverride": {},
+  "intro": {
+    "from": 0,
+    "dur": 90,
+    "kicker": "示例",
+    "line": "先跑 scripts/storyboard.py --init，再依次跑 tts.py / timeline.py"
+  },
+  "scenes": [],
+  "end": {
+    "from": 90,
+    "dur": 60,
+    "line1": "占位时间轴",
+    "line2": "生成 timeline.json 后重新渲染"
+  }
+}
